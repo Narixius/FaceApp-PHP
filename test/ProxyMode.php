@@ -1,11 +1,11 @@
 <?php
-require('FaceApp/faceapp.php');
+require('../FaceApp/faceapp.php');
 try {
-    $FaceApp = new FaceApp(__DIR__.'/test/image.jpg');
+    $FaceApp = new FaceApp(__DIR__.'/image.jpg',true);
 
     $photoCode = $FaceApp->getPhotoCode();
 
-    $filter = 'smile';
+    $filter = $FaceApp->getFilters()[array_rand($FaceApp->getFilters())];
 
     $FaceApp->applyFilter($photoCode, $filter, false);
 

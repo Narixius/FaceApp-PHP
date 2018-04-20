@@ -99,6 +99,17 @@ Save the final filtered photo
 $FaceApp->savePhoto('NEW_PHOTO_PATH.jpg');
 ```
 
+### Proxy Mode
+As you may know this service has some limits for requesting so I created a "Proxy Mode" for it
+Proxy servers has been added to faceapp.php line 44
+All of them works well but i dont guarantee them to work for a long time
+If you have any proxy server you can put it in the list
+And you can turn the proxy server on with this code
+```php
+$FaceApp = new FaceApp('PHOTO_PATH', true );
+```
+Take a look to "ProxyMode.php"
+
 ## License
 
 `Faceapp PHP API` is licensed under the MIT License - see the LICENSE file for details
