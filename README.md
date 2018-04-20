@@ -100,11 +100,11 @@ $FaceApp->savePhoto('NEW_PHOTO_PATH.jpg');
 ```
 
 ### Proxy Mode
-As you may know this service has some limits for requesting so I created a "Proxy Mode" for it
-Proxy servers has been added to faceapp.php line 44
-All of them works well but i dont guarantee them to work for a long time
-If you have any proxy server you can put it in the list
-And you can turn the proxy server on with this code
+As you may know this service has some limits for requesting so I created a "Proxy Mode" for it<br>
+Proxy servers has been added to faceapp.php line 44<br>
+All of them works well but i dont guarantee them to work for a long time<br>
+If you have any proxy server you can put it in the list<br>
+And you can turn the proxy server on with this code<br>
 ```php
 $FaceApp = new FaceApp('PHOTO_PATH', true );
 ```
