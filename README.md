@@ -108,7 +108,7 @@ And you can turn the proxy server on with this code<br>
 ```php
 $FaceApp = new FaceApp('PHOTO_PATH', true );
 ```
-Take a look to "ProxyMode.php"
+Take a look at "ProxyMode.php"
 
 ## License
 
