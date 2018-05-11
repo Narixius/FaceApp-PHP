@@ -5,9 +5,9 @@ try {
 
     $photoCode = $FaceApp->getPhotoCode();
 
-    $filter = 'smile';
+    $filter = 'glasses';
 
-    $FaceApp->applyFilter($photoCode, $filter, false);
+    $FaceApp->applyFilter($photoCode, $filter, true);
 
     if ($FaceApp->savePhoto('newImage.jpg')) {
         //Done !

@@ -101,10 +101,12 @@ class FaceApp
         if (isset($response->err))
             throw new \Exception($response->err->desc);
         else {
-            function getFilter_id($array)
-            {
-                $croped = (isset($array->only_cropped) && $array->only_cropped == 1) ? 1 : 0;
-                return [$array->id, $croped];
+            if(!function_exists("getFilter_id")) {
+                function getFilter_id($array)
+                {
+                    $croped = (isset($array->only_cropped) && $array->only_cropped == 1) ? 1 : 0;
+                    return [$array->id, $croped];
+                }
             }
 
             $code = $response->code;
