@@ -118,7 +118,7 @@ Take a look at "ProxyMode.php"
 
 Of course it is not a perfect and optimized project but u can develop it easily and improve it even better than me 😄❤
 
-if there is any question or problem contact me in Telegram [@SubString](http://t.me/SubString) report it in issues.
+if there is any question or problem contact me in Telegram [@SubString](http://t.me/SubString) or report it in issues.<br>
 Enjoy!
 
 ### -For my countrymen
