@@ -28,10 +28,10 @@ class FaceApp
             'User-Agent:' . $this->default_user_agent,
             'X-FaceApp-DeviceID:' . $this->devide_id_letters
         ];
-        $this->PhotoOptions = $this->UploadPhoto($photo_path);
         if ($turnOnProxy == true) {
             $this->setProxy();
         }
+        $this->PhotoOptions = $this->UploadPhoto($photo_path);
     }
 
     public function getPhotoCode()
