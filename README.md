@@ -1,3 +1,6 @@
+# Update: This API has been sunset
+> This API does not work anymore. A few months after this API was released, FaceApp changed their communication protocols and encrypted them. Also it seems that now they have also changed the URL of their server.
+
 # FaceApp PHP API
  
 Transform your face using Artificial Intelligence with PHP [FaceApp](http://faceapp.com) API <br>
